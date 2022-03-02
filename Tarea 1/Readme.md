@@ -1,6 +1,9 @@
 # Taller I (Linux 1)
 
+
+<p align="center">
 <b>_Jorge Esteban Triviño Correa 25-02-2022_</b>
+</p>
 
 ## 1. Dirigirse al `/home/user` del usuario creado y con los comandos anteriormente vistos en clase, crear la siguiente lista de carpetas.
 
@@ -23,6 +26,7 @@
 Para instalar el paquete `tree` se hace uso del gestor de paquetes _yum_ usando el comando `yum install tree -y` el paquete tree muestra en consola la estructura en forma de arbol de las carpetas que tiene en conjunto con los archivos que estos directorios contienen.
 
 Instalando del paquete tree
+
 <img src="./Resources/9.png"/>
 
 
