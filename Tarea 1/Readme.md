@@ -1,8 +1,8 @@
-# Taller I (Linux 1)
+<h1 align="center "># Taller I (Linux 1)</h1>
 
 
 <p align="center">
-<b>_Jorge Esteban Triviño Correa 25-02-2022_</b>
+<b>Jorge Esteban Triviño Correa 25-02-2022</b>
 </p>
 
 ## 1. Dirigirse al `/home/user` del usuario creado y con los comandos anteriormente vistos en clase, crear la siguiente lista de carpetas.
