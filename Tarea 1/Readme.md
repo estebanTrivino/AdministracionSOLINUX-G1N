@@ -7,7 +7,7 @@
 
 ## 1. Dirigirse al `/home/user` del usuario creado y con los comandos anteriormente vistos en clase, crear la siguiente lista de carpetas.
 
-`Abuelo/Padre/Hijo` : Para realizar esto debemos usar el comando <strong>mkdir nombrecarpeta</strong>, posteriormente, se utiliza el comando cat > [Nombre del archivo.txt] y se añade la información que se desea guardar, una vez escrita la información se utiliza el comando Control D para guardar los cambios y salor. A continuación se anexan las evidencias del trabajo realizado: 
+`Abuelo/Padre/Hijo` : Para realizar esto debemos usar el comando <strong>mkdir nombrecarpeta</strong>, posteriormente, se utiliza el comando cat > [Nombre del archivo.txt] y se añade la información que se desea guardar, una vez escrita la información se utiliza el comando Control D para guardar los cambios y salir. A continuación se anexan las evidencias del trabajo realizado: 
 
 <img src="./Resources/1.png"/>
 <img src="./Resources/2.png"/>
