@@ -1,48 +1,48 @@
-<h1 align="center ">Taller 2 (Linux 1)</h1>
+<h1 align="center "><strong>Taller 2</strong></h1>
 
 
 <p align="center">
-<b>Jorge Esteban Triviño Correa</b>
+<strong>Jorge Esteban Triviño Correa</strong>
 </p>
 
-## 1. Recuperación de contraseña del usuario root en linux fedora.
+<h3><strong>1. Recuperación de contraseña del usuario root en linux fedora.</strong></h3>
 
-Para iniciar se prende la maquina y se oprime una tecla para detener el arranque en el grub y se presiona la tecla (e). 
+Para iniciar se prende la maquina y se oprime una tecla para detener el arranque en el grub y se presiona la tecla <strong>e</strong>. 
 <img src="./Resources/1.png"/>
 <img src="./Resources/2.png"/>
 
-En la pantalla que aparece, se debe buscar la lines linux16 y reemplazar la sentencia rhgb quiet por rd.break.
+En la pantalla que aparece, se debe buscar la lines linux16 y reemplazar la sentencia <strong>rhgb quiet</strong> por <strong>rd.break</strong>.
 <img src="./Resources/3.png"/>
 
-Posterior a realizar el cambio, se debe presionar las teclas control x para abrir el terminal y posteriormente oprimir la tecla enter.
+Posterior a realizar el cambio, se debe presionar las teclas <strong>control x </strong>para abrir el terminal y posteriormente oprimir la tecla <strong>enter</strong>.
 <img src="./Resources/4.png"/>
 
-Una vez ingresado al terminal, se ingresa el comando mount.
+Una vez ingresado al terminal, se ingresa el comando <strong>mount</strong>.
 <img src="./Resources/5.png"/>
 
-Luego, se ingresa el comando mount -o rw,remount /sysroot/
+Luego, se ingresa el comando <strong>mount -o rw,remount /sysroot/</strong>
 <img src="./Resources/6.png"/>
 
-Luego, se ingresa el comando mount para verificar que ya esten los permisos de escritura
+Luego, se ingresa el comando <strong>mount</strong> para verificar que ya esten los permisos de escritura
 <img src="./Resources/7.png"/>
 
-Luego, se ingresa el comando chroot /sysroot/
+Luego, se ingresa el comando <strong>chroot /sysroot/ </strong>
 <img src="./Resources/8.png"/>
 
-Luego, se ingresa el comando passwd y se ingresa la nueva contraseña del usuario root por la contraseña (linux12345)
+Luego, se ingresa el comando <strong>passwd</strong> y se ingresa la nueva contraseña del usuario root por la contraseña (linux12345)
 <img src="./Resources/9.png"/>
 
-Luego, se ingresa el comando touch /.autorelabel
+Luego, se ingresa el comando <strong>touch /.autorelabel</strong>
 <img src="./Resources/10.png"/>
 
-Luego, se ingresa el comando exit dos veces.
+Luego, se ingresa el comando <strong>exit</strong> dos veces.
 
 Se espera a que el equipo reinicie y se inicia sesión con el usuario root y la nueva contraseña.
 <img src="./Resources/11.png"/>
 <img src="./Resources/12.png"/>
 
 
-## 2. Mover directorios a través de terminal usando el comando <strong>mv [nombreArchivo] [Ruta Donde Se Quiere Guardar]</strong> en linux fedora.
+<h3>2. Mover directorios a través de terminal usando el comando <strong>mv [nombreArchivo] [Ruta Donde Se Quiere Guardar]</strong> en linux fedora.</h3>
 Se deben crear las carpetas de Bisabuelo y Bisabuela:
 <img src="./Resources/13.png"/>
 
