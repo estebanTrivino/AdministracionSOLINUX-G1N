@@ -34,32 +34,15 @@ Comando <b>tar -cvf [nombreArchivoComprimidoQueSeQuiereTener].tar [rutaDirectori
 <b>-x </b>permite descomprimir un archivo
 <br>
 Comando <b>tar -xvf [nombreArchivoComprimido].tar </b>: Descomprime un achivo comprimido dentro del directorio en donde se encuentra
-
 <br>
-
 Comando <b>tar -xvf [nombreArchivoComprimido].tar -c [rutaDondeSeQuiereDescomprimir]</b>: Descomprime un achivo comprimido dentro del directorio en una ruta específica.
-
 <br>
-
 Comando <b>tar -tvf [nombreArchivoComprimido].tar </b>: Permite listar el contenido que tiene el archivo comprimido.
-
 <br>
-
 Comando <b>tar -xvf [nombreArchivoComprimido].tar "file1" "file2" </b>: Permite descomprimir multiples archivos de un archivo comprimido.
-
 <br>
-
 Comando <b>tar -cf [nombreArchivoQueSeDeseaComprimir].tar "file1" "file2" </b>: Permite comprimir multiples archivos.
-
 <br>
-
 Comando <b>df -Th</b>: Permite saber el tamaño de los discos y particiones que tiene el sistema.
-
 <br>
-
 Comando <b>du -sh</b>: Permite observar el tamaño de los directorios.
-
-<br>
-
-
-
