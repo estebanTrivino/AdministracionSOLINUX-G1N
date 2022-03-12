@@ -14,6 +14,8 @@ Cuando arranca la maquina se debe oprimir la tecla escape para que permita selec
 <br>
 Comando para editar texto <b>vi [nombreArchivo]</b> (control i para editar, una vez terminado el texto se presiona escape y se pone :qw y enter) , <b>cat [nombreArchivo]</b>, se puede instalar nano. 
 <br>
+Comando para editar texto <b>gedit [nombreArchivo]</b>.
+<br>
 Comando para leer archivos <b> less [nombreArchivo] </b>
 <br>
 Comando para ver el manual de comandos: <b>man ls</b>
@@ -46,3 +48,15 @@ Comando <b>tar -cf [nombreArchivoQueSeDeseaComprimir].tar "file1" "file2" </b>: 
 Comando <b>df -Th</b>: Permite saber el tamaño de los discos y particiones que tiene el sistema.
 <br>
 Comando <b>du -sh</b>: Permite observar el tamaño de los directorios.
+<br>
+<br>
+
+<strong>Aptitudes para triunfar en IT</strong>
+<ol>
+  <li>Ingles</li>
+  <li>Aptitudes Blandas</li>
+  <li>BlockChain</li>
+  <li>DevOps, Data Cience, IA</li>
+  <li>Linux</li>
+  <li>Dev (principal)</li>
+</ol>
