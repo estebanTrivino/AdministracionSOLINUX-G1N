@@ -30,14 +30,14 @@ Comando para copiar con todos los permisos <b>cp -a [nombreArchivo] [nombreCopia
 <br>
 Comando <b>tar -cvf [nombreArchivoComprimidoQueSeQuiereTener].tar [rutaDirectorioAComprimir]</b> Sirve para comprimir archivos y directorios. 
 <br>
-<b>-c </b> permite crear el comprimido
+<b>-c </b>permite crear el comprimido
 <b>-v </b>observar el comportamiento de lo que se esta comprimiendo
 <b>-f </b>indicar el nombre del comprimido
 <b>-x </b>permite descomprimir un archivo
 <br>
 Comando <b>tar -xvf [nombreArchivoComprimido].tar </b>: Descomprime un achivo comprimido dentro del directorio en donde se encuentra
 <br>
-Comando <b>tar -xvf [nombreArchivoComprimido].tar -c [rutaDondeSeQuiereDescomprimir]</b>: Descomprime un achivo comprimido dentro del directorio en una ruta específica.
+Comando <b>tar -xvf [nombreArchivoComprimido].tar -C [rutaDondeSeQuiereDescomprimir]</b>: Descomprime un achivo comprimido dentro del directorio en una ruta específica.
 <br>
 Comando <b>tar -tvf [nombreArchivoComprimido].tar </b>: Permite listar el contenido que tiene el archivo comprimido.
 <br>
