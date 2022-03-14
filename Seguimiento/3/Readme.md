@@ -92,3 +92,7 @@ Para acceder al crontab se ejecuta el comando <b>crontab -e</b>
 Para añadir la tarea recurrente se escribe lo siguiente:
 <br>
 <img src="./Resources/18.png"/>
+
+Para comprobar la ejecución del script nos dirigimos a la carpeta donde se almacenan los backups y se verifica que haya sido creado:
+<br>
+<img src="./Resources/19.png"/>
