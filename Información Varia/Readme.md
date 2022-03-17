@@ -81,3 +81,6 @@ Para asignar el permiso se utiliza el comando <strong>chmod 777 [archivo o direc
 Comando para agregar usuario: <strong>adduser [nombreUsuario]</strong>
 Comando para añadir contraseña al usuario: <strong>passwd [nombreUsuario]</strong>
 Comando para quitarle los archivos a un usuario: <strong>chown [usuario][usuario] [archivos o directorios]</strong>
+Comando para crear un comando sin bash o sin acceso al sistema: useradd [nombreUsuario] -s /sbin/nologin
+Comando para darle otra vez permisos al usuario: usermod [nombreUsuario] -s /bin/bash
+Comando para eliminar un usuario: userdel [nombreUsuario]
