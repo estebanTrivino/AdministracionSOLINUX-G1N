@@ -80,3 +80,4 @@ Para asignar el permiso se utiliza el comando <strong>chmod 777 [archivo o direc
 
 Comando para agregar usuario: <strong>adduser [nombreUsuario]</strong>
 Comando para añadir contraseña al usuario: <strong>passwd [nombreUsuario]</strong>
+Comando para quitarle los archivos a un usuario: <strong>chown [usuario][usuario] [archivos o directorios]</strong>
