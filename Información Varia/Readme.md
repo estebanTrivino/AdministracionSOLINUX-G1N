@@ -60,3 +60,23 @@ Comando <b>du -sh</b>: Permite observar el tamaño de los directorios.
   <li>Linux</li>
   <li>Dev (principal)</li>
 </ol>
+
+<h2><strong>Permisos</strong></h2>
+
+Lectura: r = 4
+Escritura: w = 2
+Ejecución: x = 1
+
+Grupos
+Pueden tener diferentes permisos de acuerdo a cada grupo
+User: rwx = 421 = 7
+Group: rwx = 421 = 7
+Others: rwx = 421 = 7
+
+Para dar permisos a un directorio se toma el el total de cada grupo
+Por ejemplo, para darle todos los permisos a un archivo seria = 777
+
+Para asignar el permiso se utiliza el comando <strong>chmod 777 [archivo o directorio]</strong>
+
+Comando para agregar usuario: <strong>adduser [nombreUsuario]</strong>
+Comando para añadir contraseña al usuario: <strong>passwd [nombreUsuario]</strong>
