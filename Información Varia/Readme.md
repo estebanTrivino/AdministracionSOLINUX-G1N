@@ -84,3 +84,32 @@ Comando para quitarle los archivos a un usuario: <strong>chown [usuario][usuario
 Comando para crear un comando sin bash o sin acceso al sistema: useradd [nombreUsuario] -s /sbin/nologin
 Comando para darle otra vez permisos al usuario: usermod [nombreUsuario] -s /bin/bash
 Comando para eliminar un usuario: userdel [nombreUsuario]
+Comando para crear grupo: groupadd [nombreGrupo]
+Comando para ver los grupos: cat /etc/group
+
+<h2>Supervisión de tareas</h2>
+
+Comando <strong>top ó ps</strong> permite revisar los procesos que se estan ejecutando o estan pausados en el servidor.
+
+Comando <strong>systemctl [opcion (enable, start, etc)] [servicio]</strong> permite iniciar un servicio
+
+Comando <strong>kill -9 [PID]</strong> permite matar o detener correctamente los procesos
+
+Comando <strong>df -h</strong> permite mirar las particiones del sistema
+
+Comando <strong>du -sh [directorio]</strong> permite ver el tamaño de un directorio en específico
+
+Comando <strong>htop</strong> permite ver los procesos del sistema de una forma más gráfica
+
+Comando <strong>jobs</strong> permite ver los procesos que estan en segundo plano y muestra el identificador del proceso detenido en segundo plano
+
+Comando <strong>sleep [tiempo en segundos]</strong> permite crear un timmer de t segundos
+
+Teclas <strong>Control z</strong> mientras se esta ejecutando un proceso para mandarlo a segundo plano
+
+Comando <strong>fg %[identificador del proceso detenido]</strong> permite mandar un proceso de segundo plano a primer plano
+
+Comando <strong>sleep [tiempo en segundos] &</strong> permite enviar el proceso directamente a segundo plano y sigue corriendose en segundo plano
+
+Comando <strong>nice -n [Prioridad] [comando que se le quiere dar prioridad]</strong> permite cambiar el nivel de importancia (NI) de un proceso
+
