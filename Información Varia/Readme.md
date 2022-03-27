@@ -113,3 +113,7 @@ Comando <strong>sleep [tiempo en segundos] &</strong> permite enviar el proceso 
 
 Comando <strong>nice -n [Prioridad] [comando que se le quiere dar prioridad]</strong> permite cambiar el nivel de importancia (NI) de un proceso
 
+winscp
+sftp
+
+
