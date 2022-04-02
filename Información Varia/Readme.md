@@ -116,4 +116,51 @@ Comando <strong>nice -n [Prioridad] [comando que se le quiere dar prioridad]</st
 winscp
 sftp
 
+<h2>Redirecciones y tuberias</h2>
+
+Redirecciones:
+Si se usa con el simbolo > se cambia el contenido del archivo de texto
+Si se usa con el simbolo >> Se agrega el nuevo contenido pero se mantiene el contenido anterior
+
+
+Tuberias:
+Se usa con el simbolo | 
+
+Salidas del comando:
+0 -> saluida estandar
+1 -> Salida normal 
+2 -> Salida con error
+
+> archivo
+1>archivo
+
+Ejemplo:
+Salida estandar (Imprime todo, errores y correcto): 
+echo "Hola"
+
+echo "Hola" > hello.txt
+Resultado: "Hola"
+
+> hello.txt
+Resultado: ""
+
+echo " Jorge" >> hello.txt
+Resultado: "Hola Jorge"
+
+Salida con errores:
+-type f -user esteban 2 > error.txt
+Manda los errores al archivo error.txt
+
+Salida estandar (Sin errores):
+-type f -user esteban 1 > sinError.txt
+
+Para enviar tanto errores como corresctos al archivo se usa el comando:
+-type f -user esteban 1 >> todo.txt 2 >> todo.txt
+
+
+Tuberias:
+ps -fea (muestra todos los comandos)
+
+ps -fea | grep ssh (todo lo que sale del comando ps -fea se manda al comando grep y se filtra por ssh)
+
 
