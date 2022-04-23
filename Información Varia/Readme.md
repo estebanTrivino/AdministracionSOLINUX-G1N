@@ -164,3 +164,30 @@ ps -fea (muestra todos los comandos)
 ps -fea | grep ssh (todo lo que sale del comando ps -fea se manda al comando grep y se filtra por ssh)
 
 
+<strong>DNS</strong>
+
+Para consultar el servidor DNS del servido se usa el comando `cat /etc/resolv.conf` 
+
+Con el comando `route -n` puedo saber mi gateway
+
+Al hacerle un ping al gateway del servidor se verifica que tenga internet
+
+<strong>Alternativa de seguridad SELINUX</strong>
+
+Con el comando `cat /etc/selinux/config` se puede observar en que estado se encuentra el firewall de SELINUX
+
+Para poner el estado permissive del firewall de SELINUX se utiliza el comando `setenforce 0` 
+
+Para poner el estado Enforcing del firewall de SELINUX se utiliza el comando `setenforce 1`
+
+Para observar el estado actual del firewall de SELINUX se utiliza el comando `getenforce 0`
+
+Para que el servidor tome los cambios se debe reiniciar con el comando `systemctl reboot` 
+
+<strong>FIREWALL</strong>
+
+Para ver los puertos que se tienen activos se utiliza el comando `firewall-cmd --list-all`
+
+
+
+
