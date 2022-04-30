@@ -29,3 +29,10 @@ Primero configuramos el servidor de bases de datos para permitir las conexiones 
 Se realiza la conexión desde el cliente al servidor por el puerto 3306 utilizando el comando `telnet [ip_address] [port_number]`. Se evidencia la conexión con el servidor cuando aparece que ya esta conectado el cliente. 
 <br>
 <img src="./Resources/5.png"/>
+
+<h3>5. Realizar la conexión al servidor desde el cliente con el servicio ssh.</h3>
+
+Se realiza la conexión desde el cliente al servidor a traves del servicio de ssh.
+
+<br>
+<img src="./Resources/6.png"/>
