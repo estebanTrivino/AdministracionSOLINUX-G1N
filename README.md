@@ -11,5 +11,5 @@ Respositorio con el material trabajado en la asignatura de linux 1.
     <li><a href="https://github.com/estebanTrivino/AdministracionSOLINUX-G1N/tree/master/Seguimiento/6">Taller VI</a></li>
     <li><a href="https://github.com/estebanTrivino/AdministracionSOLINUX-G1N/tree/master/Seguimiento/7">Taller VII</a></li>
     <li><a href="https://github.com/estebanTrivino/AdministracionSOLINUX-G1N/tree/master/Seguimiento/8">Taller VIII</a></li>
-    
+    <li><a href="https://github.com/estebanTrivino/AdministracionSOLINUX-G1N/tree/master/Seguimiento/9">Taller IX</a></li>
 <ol>
